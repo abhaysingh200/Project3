@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+#Home1{
+    box-sizing: border-box;
+    position: relative;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 30px;
+    height: 95vh;
+    opacity: 0.8;
+    background-color: #25435d;
+    background-blend-mode: color-burn;
+    background-image: url('home1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#navbar{
+    display: flex;
+    flex-wrap: wrap;    
+    align-items: center;
+
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+}
+
+#logo h3{
+    font-size: 30px;
+    color: white;
+}
+
+#logo img{
+    width: 100px;
+    border-radius: 20px;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-left: 20%;  
+}
+
+#language-changer{
+    display: flex;
+    align-items: center;
+}
+
+#logo select{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    color: white;
+    background-color: transparent;
+    border:1px solid white;
+    border-radius: 20px;
+    padding: 9px 25px;
+    text-decoration: none;
+}
+
+#logo select option{
+    font-size: 20px;
+    border-radius: 20px;
+    padding-left: 100px;
+    color: black;
+}
+
+#menu a{
+    padding-right: 50px;
+    text-decoration: none;  
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 10px;
+    color: white;
+}
+#navbar button{
+    
+    padding: 15px 30px 15px 30px;
+    font-size: 23px; 
+    border-radius: 15px;  
+    font-weight: 550;
+    color: black; 
+}
+
+#H-M1{
+    width: 40%;
+
+    margin: 0% 0% 0 10%;   
+}
+
+#H-M1 h1{
+    font-size: 70px;
+    color: white;
+}
+
+#H-M1 h1 span{
+    color: #b3edb2;
+}
+
+#H-M1 p{
+    margin-top: 30px;
+    font-size: 23px;
+    font-weight: 300;
+    color: white;
+    max-width: 600px;
+    line-height: 29px;
+}
+
+#H-btns{
+    width: 100%;
+    display: flex;
+    margin-top: 90px;
+}
+
+#H-M1 #H-btns .btn3{
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 16px;
+    padding: 20px 25px;
+    background-color: white;
+}
+.btn2{
+    font-size: 25px;
+    font-weight: 600;
+    background-color: transparent;
+    border-radius: 16px;
+    margin-left: 20px;  
+    border: 1px solid white;
+    padding: 20px 40px;
+    color: white;
+}
+
+.btn2 :hover{
+    cursor:wait;
+}
+
+#H-M{
+    display: flex;
+    margin-top: 5%;
+    gap: 100px;
+}
+
+#H-M2{
+    display: flex;
+    justify-content: center;
+}
+
+#vil1{
+    border-radius: 20px;
+    padding: 2%;
+    height: 80%;
+    background-color: white;
+
+    top: 00%;
+    position: relative;
+    
+}
+
+#vil2{
+    border-radius: 20px;
+    padding: 2%;
+    height: 80%;
+    background-color: white;
+    top: 00%;
+    position: relative;
+}
+
+#vil3{
+    border-radius: 20px;
+    padding: 2%;
+ 
+    background-color: white;
+    position:absolute;
+    top: 23vh;
+    right: 13;
+    
+}   
+
+#vil3 img{
+    border-radius: 10px;
+}
+
+.name-p{
+    padding: 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Price-p{
+    padding: 10px 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Price-p h2{
+    color: #0080a7;
+    font-size: 25px;
+}
+
+.Price-p h3{
+    color: gray;
+    padding-left: 20px;
+    font-size: 15px;
+}
+.rate{
+    color: black;
+    font-size:15px;
+    font-weight: 600;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: rgb(235, 240, 244);
+}
+
+.rate div{
+    margin-bottom: 10px;
+display: flex;
+justify-content: space-between;
+}
